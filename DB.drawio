@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-22T21:50:56.815Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="rSlGPURI43TQEEY1Vbhr" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-22T21:52:07.982Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="mpmegWEmp_IqYGPJD-Yf" version="21.0.8" type="github">
   <diagram name="Página-1" id="JuqT7jjaQWruWGaDGwlm">
     <mxGraphModel dx="3328" dy="3109" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -768,7 +768,7 @@
             <mxPoint x="-970" y="-1210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JZZO-4KMqbe31YCz3-bU-2" value="salon" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+        <mxCell id="JZZO-4KMqbe31YCz3-bU-2" value="classrooms" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-480" y="-1200" width="180" height="180" as="geometry" />
         </mxCell>
         <mxCell id="JZZO-4KMqbe31YCz3-bU-3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;rounded=1;" vertex="1" parent="JZZO-4KMqbe31YCz3-bU-2">
