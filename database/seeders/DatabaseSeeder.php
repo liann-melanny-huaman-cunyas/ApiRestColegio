@@ -2,6 +2,17 @@
 
 namespace Database\Seeders;
 
+//importamos los model de la base de datos
+use App\Models\Student;
+use App\Models\Level;
+use App\Models\Degree;
+use App\Models\Turn;
+use App\Models\Section;
+use App\Models\Classroom;
+
+
+
+
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -14,11 +25,11 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
-
-        // \App\Models\User::factory()->create([
-        //     'name' => 'Test User',
-        //     'email' => 'test@example.com',
-        // ]);
+        Student::factory(20)->create();
+        Degree::factory(20)->create();
+        Section::factory(20)->create();
+        Level::factory(20)->create();
+        Turn::factory(20)->create();
+        Classroom::factory(20)->create();
     }
 }

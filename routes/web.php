@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ClassroomController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::resource('/', ClassroomController::class)
+    /**La ruta "index" es para crear formularios y mostrar todas las publicaciones
+     * La ruta "store" para guardar nuevas publicaciones
+     * La ruta "edit" mostrara el formulario para editar
+     * La ruta "update" aceptara los datos y actualizara el Model
+     * La ruta "destroy" elimina los datos
+     * */
+
+    ->only(['index', 'store', 'edit', 'update','destroy']);
+    //El middleware "auth" sirve para garantizar que solo son usuarios registrados
+    //EL middleware "verified" sirve para verificar el correo electronico
